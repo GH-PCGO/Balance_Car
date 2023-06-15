@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+# 忽略所有.swp结尾的文件
+*.swp
+
+# 忽略指定文件
+*.zip
+
+# 忽略目录
+.vscode/
+=======
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+>>>>>>> faf3e1ee84b9604dde4e2897a48c6810e1f3e512

@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: p Conquer, c, LIC=Z6FWB-LV1C1-R05N5-U0EJ9-RM735-GM9TJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Community  Version: 5.37.0.0
+Toolchain Path:  D:\Arm\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.12.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+E:\EmbeddedWorkplace\¿∂—¿—≠º£±‹’œ∆Ω∫‚≥µ\gd32balance\gd32balance.uvprojx
+Project File Date:  06/14/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Arm\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\Hardware\data_show\data_show.h(6): warning:  #1295-D: Deprecated declaration data_show_init - give arg types
+  void data_show_init();
+.\Hardware\data_show\data_show.h(11): warning:  #1295-D: Deprecated declaration data_show_parse - give arg types
+  void data_show_parse();
+.\Hardware\data_show\data_show.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\Hardware\bluethooth\bluetooth.h(4): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+.\Hardware\bluethooth\bluetooth.h(9): warning:  #1295-D: Deprecated declaration blue_test - give arg types
+  void blue_test();
+.\Hardware\bluethooth\bluetooth.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\User\systick.h(49): warning:  #1295-D: Deprecated declaration get_system_ms - give arg types
+  uint32_t get_system_ms();
+.\Hardware\Ultrasonic\Ultrasonic.h(16): warning:  #1295-D: Deprecated declaration Ultrasonic_init - give arg types
+  void Ultrasonic_init();
+.\Hardware\Ultrasonic\Ultrasonic.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+User\main.c(13): warning:  #223-D: function "usart_gpio_dma_config" declared implicitly
+      usart_gpio_dma_config(115200);
+User\main.c(21): warning:  #223-D: function "printf" declared implicitly
+  			printf("distance:%fm\r\n",distance);
+User\main.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=8380 RO-data=460 RW-data=48 ZI-data=7168  
+FromELF: creating hex file...
+".\Objects\gd32balance.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32F4xx_DFP.3.0.4.pack
+                GigaDevice.GD32F4xx_DFP.3.0.4
+                GigaDevice GD32F4xx Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.4/Device/F4XX/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
