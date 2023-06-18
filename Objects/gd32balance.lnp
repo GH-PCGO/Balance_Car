@@ -35,9 +35,10 @@
 ".\objects\system_gd32f4xx.o"
 ".\objects\startup_gd32f450_470.o"
 ".\objects\led.o"
-".\objects\bsp_dma_recv.o"
 ".\objects\motor.o"
 ".\objects\ultrasonic.o"
+".\objects\bluetooth.o"
+".\objects\bsp_usart.o"
 --library_type=microlib --strict --scatter ".\Objects\gd32balance.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -40,15 +40,13 @@ compiling main.c...
   void led_control();
 .\Hardware\led\led.h(25): warning:  #1-D: last line of file ends without a newline
   #endif
-User\main.c(11): warning:  #223-D: function "usart_gpio_dma_config" declared implicitly
-      usart_gpio_dma_config(115200);
-User\main.c(21): warning:  #223-D: function "printf" declared implicitly
-  				printf("distance:%dmm\r\n",distance);
-User\main.c: 8 warnings, 0 errors
+User\main.c(66): warning:  #223-D: function "memset" declared implicitly
+  				memset(g_recv_buff,0,g_recv_length);					// 清空数组
+User\main.c: 7 warnings, 0 errors
 linking...
-Program Size: Code=4072 RO-data=460 RW-data=24 ZI-data=5120  
+Program Size: Code=3368 RO-data=460 RW-data=20 ZI-data=5124  
 FromELF: creating hex file...
-".\Objects\gd32balance.axf" - 0 Error(s), 8 Warning(s).
+".\Objects\gd32balance.axf" - 0 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -61,7 +59,7 @@ Package Vendor: GigaDevice
   D:/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.4/Device/F4XX/Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>
