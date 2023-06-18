@@ -22,39 +22,33 @@ Dialog DLL:      TCM.DLL V1.56.1.0
  
 <h2>Project:</h2>
 E:\EmbeddedWorkplace\¿∂—¿—≠º£±‹’œ∆Ω∫‚≥µ\gd32balance\gd32balance.uvprojx
-Project File Date:  06/14/2023
+Project File Date:  06/18/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Arm\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
 compiling main.c...
-.\Hardware\data_show\data_show.h(6): warning:  #1295-D: Deprecated declaration data_show_init - give arg types
-  void data_show_init();
-.\Hardware\data_show\data_show.h(11): warning:  #1295-D: Deprecated declaration data_show_parse - give arg types
-  void data_show_parse();
-.\Hardware\data_show\data_show.h(18): warning:  #1-D: last line of file ends without a newline
-  #endif 
-.\Hardware\bluethooth\bluetooth.h(4): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
-  void bluetooth_init();
-.\Hardware\bluethooth\bluetooth.h(9): warning:  #1295-D: Deprecated declaration blue_test - give arg types
-  void blue_test();
-.\Hardware\bluethooth\bluetooth.h(10): warning:  #1-D: last line of file ends without a newline
-  #endif
 .\User\systick.h(49): warning:  #1295-D: Deprecated declaration get_system_ms - give arg types
   uint32_t get_system_ms();
-.\Hardware\Ultrasonic\Ultrasonic.h(16): warning:  #1295-D: Deprecated declaration Ultrasonic_init - give arg types
+.\Hardware\Ultrasonic\Ultrasonic.h(20): warning:  #1295-D: Deprecated declaration Ultrasonic_init - give arg types
   void Ultrasonic_init();
-.\Hardware\Ultrasonic\Ultrasonic.h(20): warning:  #1-D: last line of file ends without a newline
+.\Hardware\Ultrasonic\Ultrasonic.h(25): warning:  #1295-D: Deprecated declaration get_distance - give arg types
+  int32_t get_distance();
+.\Hardware\Ultrasonic\Ultrasonic.h(28): warning:  #1-D: last line of file ends without a newline
   #endif
-User\main.c(13): warning:  #223-D: function "usart_gpio_dma_config" declared implicitly
+.\Hardware\led\led.h(14): warning:  #1295-D: Deprecated declaration led_control - give arg types
+  void led_control();
+.\Hardware\led\led.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+User\main.c(11): warning:  #223-D: function "usart_gpio_dma_config" declared implicitly
       usart_gpio_dma_config(115200);
 User\main.c(21): warning:  #223-D: function "printf" declared implicitly
-  			printf("distance:%fm\r\n",distance);
-User\main.c: 11 warnings, 0 errors
+  				printf("distance:%dmm\r\n",distance);
+User\main.c: 8 warnings, 0 errors
 linking...
-Program Size: Code=8380 RO-data=460 RW-data=48 ZI-data=7168  
+Program Size: Code=4072 RO-data=460 RW-data=24 ZI-data=5120  
 FromELF: creating hex file...
-".\Objects\gd32balance.axf" - 0 Error(s), 11 Warning(s).
+".\Objects\gd32balance.axf" - 0 Error(s), 8 Warning(s).
 
 <h2>Software Packages used:</h2>
 

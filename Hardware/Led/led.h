@@ -3,6 +3,7 @@
 
 #include "gd32f4xx.h"
 #include "systick.h"
+#include "systick.h"
 
 //GPIODµÄÊ±ÖÓ
 #define LED2_RCU RCU_GPIOD

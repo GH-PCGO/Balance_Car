@@ -28,9 +28,11 @@ void led_control(){
 	gpio_mode_set(LEDR_GPIO,GPIO_MODE_OUTPUT,GPIO_PUPD_NONE,LEDR_PIN);
 	//GPIO ‰≥ˆ—°œÓ≈‰÷√
 	gpio_output_options_set(LEDR_GPIO,GPIO_OTYPE_PP,GPIO_OSPEED_2MHZ,LEDR_PIN);
+	//printf("reset:%d\r\n",gpio_input_bit_get(LEDR_GPIO,LEDR_PIN));
 	
 	gpio_bit_set(LEDL_GPIO,LEDL_PIN);
 	gpio_bit_set(LEDR_GPIO,LEDR_PIN);
+	//printf("set:%d\r\n",gpio_input_bit_get(LEDR_GPIO,LEDR_PIN));
 	delay_1ms(250);
 	gpio_bit_reset(LEDL_GPIO,LEDL_PIN);
 	gpio_bit_reset(LEDR_GPIO,LEDR_PIN);
